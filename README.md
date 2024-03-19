@@ -28,14 +28,14 @@
 > :--:
 > <b>Deployment Link</b>
 >
-> ![Sample Input](https://user-images.githubusercontent.com/118678165/223332010-1ba3cb55-3b98-4b65-ab1d-f6b11036bfa6.png)
+> ![Sample Input](https://github.com/aaronn27/Automated-Route-Planning-System/assets/118678165/d227975e-856b-43e0-86b8-335ceb148a85)
 > :--:
 > <b>Sample Input</b>
 >
-> ![Sample Output 1](https://user-images.githubusercontent.com/118678165/223332287-fd79f862-a305-4754-b301-6d90508aba58.png)
+> ![Sample Output 1](https://github.com/aaronn27/Automated-Route-Planning-System/assets/118678165/e954d3f3-06f5-4dbd-987c-3af6a6aa442d)
 > :--:
 > <b>Sample Output 1</b>
 >
-> ![Sample Output 2](https://user-images.githubusercontent.com/118678165/223332491-63d5093e-363b-483e-aeb1-df66d1abec5b.png)
+> ![Sample Output 2](https://github.com/aaronn27/Automated-Route-Planning-System/assets/118678165/98e9d7bd-cdff-4c8e-a010-6cbafa210333)
 > :--:
 > <b>Sample Output 2</b>
