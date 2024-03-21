@@ -71,6 +71,7 @@
 
             <button type="button" onclick="addLocation()">Add Location</button><br><br>
             <button type="button" onclick="calculateRoute()">Get Route</button><br><br>
+            <button type="button" onclick="resetForm()">Reset</button><br><br>
         </form>
     </div>
 
@@ -90,8 +91,7 @@
           document.getElementById("additional_locations").appendChild(div);
         }
       }
-    </script>
-        <script>
+
       function calculateRoute(){
         //Getting input values from the form
         var form = document.getElementById("input_form");
@@ -104,7 +104,26 @@
 
         outputDiv.innerHTML = "<a href='" + url + "'target='_blank'>View Routes in Google Maps</a>";
       }
+
+    function displayRoute(url) {
+        var outputDiv = document.getElementById("output");
+        // Creates a button to open the generated Google Maps URL in a new tab
+        outputDiv.innerHTML = "<button onclick=\"window.open('" + url + "', '_blank')\">View Routes in Google Maps</button>";
+    }
+
+    function resetForm() {
+        // Reset form fields
+        document.getElementById("input_form").reset();
+
+        // Reset additional location fields
+        document.getElementById("additional_locations").innerHTML = '';
+
+        // Reset location count
+        locationCount = 1;
+
+        // Clear output
+        document.getElementById("output").innerHTML = '';
+    }
     </script>
 </body>
 </html>
-
