@@ -2,7 +2,7 @@
 
 ## Description
 
-> Automated Route Planning System is a simple webapp that is developed using **Google App Script** and **HTML**. It allows users to find the best route for travelling between multiple locations. Users can enter multiple locations, and it will sort them based on their shortest distance from each other. This app uses the Google Maps API to calculate the distance between two locations and construct a Google Maps URL that directs users to the recommended route.
+> Automated Route Planning System is a simple web application that is developed using **Google App Script** and **HTML**. It allows users to find the best route for travelling between multiple locations. Users can enter multiple locations, and it will sort them based on their shortest distance from each other. This app uses the Google Maps API to calculate the distance between two locations and construct a Google Maps URL that directs users to the recommended route.
 
 ## How to Install and Run
 
